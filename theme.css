@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name       Novacloud Catpuccino Mocha
+@version    20241115.22.30
+@namespace  https://userstyles.world/user/sluhtie
+@author     sluhtie
+==/UserStyle== */
+
+@-moz-document url-prefix("https://shop.novacloud-hosting.com/") {
+* {
+    color: white;
+}
+
+:root {
+    --app-nav-top-bg: #181825;
+    --gray-gradient-h: #181825;
+    --body-bg: #1e1e2e;
+    --main-header-title-color: #fff;
+    --dropdown-link-color: #fff;
+    --dropdown-bg: #181825;
+    --panel-default-text: #d3d3d3;
+    --gray-faded:;
+    --text-heading-color: #fff;
+    --text-body-color: #c2c0c0;
+    --package-bg: #181825;
+    --ui-block-bg-form: #181825;
+    --ui-block-bg: #181825;
+    --input-bg: #181825;
+    /* --input-color: #181825; */
+}
+
+.logo img {
+    content: url("https://i.imgur.com/yZoj69B.png");
+}
+
+#Primary_Navbar-Order_New_Services-Minecraft-Server > a:nth-child(1) > img:nth-child(1) {
+    content: url("https://i.imgur.com/7NGHPf7.png");
+}
+
+#Primary_Navbar-Order_New_Services-Palworld_server > a:nth-child(1) > img:nth-child(1) {
+    content: url("https://i.imgur.com/GM6iftv.png");
+}
+
+.dropdown-menu-sidebar-graphic > img:nth-child(1) {
+    content: url("https://i.imgur.com/o3PMgPc.png");
+}
+}
