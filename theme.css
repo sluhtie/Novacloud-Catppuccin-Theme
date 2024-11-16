@@ -29,19 +29,22 @@
     --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
 }
 
+/* Header logo replacement */
 .logo img {
-    content: url("https://i.imgur.com/yZoj69B.png");
+    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-big.png");
+}
+
+/* Dropdown logo replacement */
+.dropdown-menu-sidebar-graphic > img:nth-child(1) {
+    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
 }
 
 #Primary_Navbar-Order_New_Services-Minecraft-Server > a:nth-child(1) > img:nth-child(1) {
-    content: url("https://i.imgur.com/7NGHPf7.png");
+    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/palworld-icon.png");
 }
 
 #Primary_Navbar-Order_New_Services-Palworld_server > a:nth-child(1) > img:nth-child(1) {
-    content: url("https://i.imgur.com/GM6iftv.png");
+    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/minecraft-icon.png");
 }
 
-.dropdown-menu-sidebar-graphic > img:nth-child(1) {
-    content: url("https://i.imgur.com/f9qtHsN.png");
-}
 }
