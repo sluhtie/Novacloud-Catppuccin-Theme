@@ -39,12 +39,4 @@
     content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
 }
 
-#Primary_Navbar-Order_New_Services-Minecraft-Server > a:nth-child(1) > img:nth-child(1) {
-    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/palworld-icon.png");
-}
-
-#Primary_Navbar-Order_New_Services-Palworld_server > a:nth-child(1) > img:nth-child(1) {
-    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/minecraft-icon.png");
-}
-
 }
