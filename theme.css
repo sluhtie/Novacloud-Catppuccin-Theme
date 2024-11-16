@@ -40,4 +40,8 @@
     content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
 }
 
+.modal {
+    background: var(--body-bg);
+}
+
 }
