@@ -26,6 +26,7 @@
     --ui-block-bg: #181825;
     --input-bg: #181825;
     /* --input-color: #181825; */
+    --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
 }
 
 .logo img {
