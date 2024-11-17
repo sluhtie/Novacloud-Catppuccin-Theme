@@ -45,19 +45,23 @@
     .modal {
         background: var(--body-bg);
     }
-    
+
     /* Panel Color Adjustments */
     .panel-sidebar.panel-sidebar-primary {
         background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
     }
-    
+
     .panel {
-        background: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
+        --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
-    
+
     .panel-info > .panel-heading {
         background: transparent;
         --panel-info-text: white;
         --panel-info-border: white;
+    }
+
+    .panel-summary-primary {
+        --primary-block-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
 }
