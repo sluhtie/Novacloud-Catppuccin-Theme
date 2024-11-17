@@ -41,6 +41,11 @@
         content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
     }
     
+    /* Dropdown link background color */
+    .dropdown-menu > .active > a {
+        background-color: #1e1e2e;
+    }
+    
     /* Modal Background */
     .modal {
         background: var(--body-bg);
