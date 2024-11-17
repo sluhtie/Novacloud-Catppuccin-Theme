@@ -52,7 +52,7 @@
     }
     
     .panel {
-        --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
+        background: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
     
     .panel-info > .panel-heading {
