@@ -6,42 +6,58 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://shop.novacloud-hosting.com/") {
-* {
-    color: white;
-    --btn-default-color: #fff;
-}
-
-:root {
-    --app-nav-top-bg: #181825;
-    --gray-gradient-h: #181825;
-    --body-bg: #1e1e2e;
-    --main-header-title-color: #fff;
-    --dropdown-link-color: #fff;
-    --dropdown-bg: #181825;
-    --panel-default-text: #d3d3d3;
-    --gray-faded:;
-    --text-heading-color: #fff;
-    --text-body-color: #c2c0c0;
-    --package-bg: #181825;
-    --ui-block-bg-form: #181825;
-    --ui-block-bg: #181825;
-    --input-bg: #181825;
-    /* --input-color: #181825; */
-    --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
-}
-
-/* Header logo replacement */
-.logo img {
-    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-big.png");
-}
-
-/* Dropdown logo replacement */
-.dropdown-menu-sidebar-graphic > img:nth-child(1) {
-    content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
-}
-
-.modal {
-    background: var(--body-bg);
-}
-
+    * {
+        color: white;
+        --btn-default-color: #fff;
+    }
+    
+    :root {
+        --app-nav-top-bg: #181825;
+        --gray-gradient-h: #181825;
+        --body-bg: #1e1e2e;
+        --main-header-title-color: #fff;
+        --dropdown-link-color: #fff;
+        --dropdown-bg: #181825;
+        --panel-default-text: #d3d3d3;
+        --gray-faded:;
+        --text-heading-color: #fff;
+        --text-body-color: #c2c0c0;
+        --package-bg: #181825;
+        --ui-block-bg-form: #181825;
+        --ui-block-bg: #181825;
+        --input-bg: #181825;
+        /* --input-color: #181825; */
+        --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
+            
+    }
+    
+    /* Header logo replacement */
+    .logo img {
+        content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-big.png");
+    }
+    
+    /* Dropdown logo replacement */
+    .dropdown-menu-sidebar-graphic > img:nth-child(1) {
+        content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
+    }
+    
+    /* Modal Background */
+    .modal {
+        background: var(--body-bg);
+    }
+    
+    /* Panel Color Adjustments */
+    .panel-sidebar.panel-sidebar-primary {
+        background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
+    }
+    
+    .panel {
+        --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
+    }
+    
+    .panel-info > .panel-heading {
+        background: transparent;
+        --panel-info-text: white;
+        --panel-info-border: white;
+    }
 }
