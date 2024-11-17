@@ -50,23 +50,55 @@
     .modal {
         background: var(--body-bg);
     }
-
+    
     /* Panel Color Adjustments */
     .panel-sidebar.panel-sidebar-primary {
         background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
     }
-
+    
     .panel {
         --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
-
+    
     .panel-info > .panel-heading {
         background: transparent;
         --panel-info-text: white;
         --panel-info-border: white;
     }
-
+    
     .panel-summary-primary {
         --primary-block-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
+    
+    /* Various table color adjustments */
+    #layers .lu-tile {
+        background: #11111b;
+        border: 0px;
+    }
+    
+    #layers .lu-tile:hover {
+        background: #313244;
+    }
+    
+    #layers .lu-widget {
+        background: #11111b;
+        border: 0px;
+        margin: 0px;
+    }
+    
+    #layers .lu-widget__header {
+        border-color: #313244;
+    }
+    
+    #layers .lu-widget__body {
+        border: 0px;
+    }
+    
+    #layers .lu-table {
+        margin-bottom: 0px;
+    }
+    
+    #layers .lu-table tbody td {
+        border-top: 1px solid #313244;
+    }    
 }
