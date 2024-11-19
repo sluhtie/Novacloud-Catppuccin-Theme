@@ -45,6 +45,12 @@
     .dropdown-menu > .active > a {
         background-color: #1e1e2e;
     }
+
+    /* Dropdown link background color on hover*/
+    .dropdown.dropdown-extended.show .dropdown-menu > li > a:hover {
+        background-color: #1e1e2e !important;
+        color: #ffffff !important;
+    }
     
     /* Modal Background */
     .modal {
@@ -53,7 +59,7 @@
     
     /* Panel Color Adjustments */
     .panel-sidebar.panel-sidebar-primary {
-        background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
+        background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%) !important;
     }
     
     .panel {
