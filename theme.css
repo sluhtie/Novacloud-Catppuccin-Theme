@@ -101,4 +101,15 @@
     #layers .lu-table tbody td {
         border-top: 1px solid #313244;
     }    
+    .form-control:hover {
+        background-color: #30304b !important;
+    }    
+    .form-control {
+        background-color: #1e1e2e !important;
+        color: white !important;
+        border: 1px solid #444;
+    }
+    .main-body-content {
+        background-color: #1e1e2e !important;
+    }
 }
