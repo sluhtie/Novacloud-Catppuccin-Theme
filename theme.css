@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name       Novacloud Catpuccino Mocha
-@version    1.1.0
+@version    1.1.1
 @namespace  https://userstyles.world/user/sluhtie
 @author     sluhtie
 ==/UserStyle== */
@@ -70,6 +70,23 @@
         --primary-block-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
     }
     
+    /* Dashboard adjustments */
+    .panel-default > .panel-heading {
+        border-color: #313244;
+    }
+    
+    .list-group-item {
+        border-bottom: 0px;
+    }
+    
+    .list-group-item:hover {
+        background: black;
+    }
+    
+    .client-home-panels .panel-active-services .list-group .list-group-item:hover {
+        background: #313244;
+    }
+    
     /* Various table color adjustments */
     #layers .lu-tile {
         background: #11111b;
@@ -100,5 +117,5 @@
     
     #layers .lu-table tbody td {
         border-top: 1px solid #313244;
-    }    
+    }   
 }
