@@ -9,6 +9,7 @@
    * {
        color: white;
        --btn-default-color: #fff;
+       --select-option-bg: transparent;
    }
    
    :root {
