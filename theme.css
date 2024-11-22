@@ -6,155 +6,164 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://shop.novacloud-hosting.com/") {
-  * {
-      color: white;
-      --btn-default-color: #fff;
-      --select-option-bg: transparent;
-  }
-  
-  :root {
-      --app-nav-top-bg: #181825;
-      --gray-gradient-h: #181825;
-      --body-bg: #1e1e2e;
-      --main-header-title-color: #fff;
-      --dropdown-link-color: #fff;
-      --dropdown-bg: #181825;
-      --panel-default-text: #d3d3d3;
-      --gray-faded:;
-      --text-heading-color: #fff;
-      --text-body-color: #c2c0c0;
-      --package-bg: #181825;
-      --ui-block-bg-form: #181825;
-      --ui-block-bg: #181825;
-      --input-bg: #181825;
-      /* --input-color: #181825; */
-      --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
-          
-  }
-  
-  .dropdown-menu .nav-divider {
-      border-top: 1px solid #1e1e2e;
-  }
-  
-  /* Header logo replacement */
-  .logo img {
-      content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-big.png");
-  }
-  
-  /* Dropdown logo replacement */
-  .dropdown-menu-sidebar-graphic > img:nth-child(1) {
-      content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
-  }
-  
-  .img-fluid {
-      content: url(https://github.com/sluhtie/Novacloud-Catppuccin-Theme/blob/main/images/sitejet.png?raw=true);
-  }
-  
-  /* Dropdown link background color */
-  .dropdown-menu > .active > a {
-      background-color: #1e1e2e;
-  }
-  
-  /* Modal Background */
-  .modal {
-      background: var(--body-bg);
-  }
-  
-  /* Panel Color Adjustments */
-  .panel-sidebar.panel-sidebar-primary {
-      background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
-  }
-  
-  .panel {
-      --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
-  }
-  
-  .panel-info > .panel-heading {
-      background: transparent;
-      --panel-info-text: white;
-      --panel-info-border: white;
-  }
-  
-  .panel-summary-primary {
-      --primary-block-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
-  }
-  
-  .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group > a.list-group-item.active {
-      background: #181825;
-  }
-  
-  .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group > a.list-group-item.active:hover {
-      background: #313244;
-  }
-  
-  /* Dashboard adjustments */
-  .panel-default > .panel-heading {
-      border-color: #313244;
-  }
-  
-  .list-group-item {
-      border-bottom: 0px;
-  }
-  
-  .list-group-item:hover {
-      background: black;
-  }
-  
-  .client-home-panels .panel-active-services .list-group .list-group-item:hover {
-      background: #313244;
-  }
-  
-  /* Various table color adjustments */
-  .table > tbody > tr > td {
-      border-top: 0px;
-  }
-  
-  .table-container .dataTables_length {
-      border-top: 0px;
-  }
-  
-  #layers .lu-tile {
-      background: #11111b;
-      border: 0px;
-  }
-  
-  #layers .lu-tile:hover {
-      background: #313244;
-  }
-  
-  #layers .lu-widget {
-      background: #11111b;
-      border: 0px;
-      margin: 0px;
-  }
-  
-  #layers .lu-widget__header {
-      border-color: #313244;
-  }
-  
-  #layers .lu-widget__body {
-      border: 0px;
-  }
-  
-  #layers .lu-table {
-      margin-bottom: 0px;
-  }
-  
-  #layers .lu-table tbody td {
-      border-top: 1px solid #313244;
-  }
-  
-  /* Some Icons & Buttons */
-  .message-success .message-icon {
-      background: var(--state-success-text);
-  }
-  
-  .btn-primary-faded {
-      border: 0px;
-      background: #1e1e2e;
-  }
-  
-  .btn-primary-faded:hover {
-      background: #313244;
-  }
+    * {
+        color: white;
+        --btn-default-color: #fff;
+        --select-option-bg: transparent;
+    }
+    
+    :root {
+        --app-nav-top-bg: #181825;
+        --gray-gradient-h: #181825;
+        --body-bg: #1e1e2e;
+        --main-header-title-color: #fff;
+        --dropdown-link-color: #fff;
+        --dropdown-bg: #181825;
+        --panel-default-text: #d3d3d3;
+        --gray-faded:;
+        --text-heading-color: #fff;
+        --text-body-color: #c2c0c0;
+        --package-bg: #181825;
+        --ui-block-bg-form: #181825;
+        --ui-block-bg: #181825;
+        --input-bg: #181825;
+        /* --input-color: #181825; */
+        --product-details-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%)
+            
+    }
+    
+    .dropdown-menu .nav-divider {
+        border-top: 1px solid #1e1e2e;
+    }
+    
+    /* Header logo replacement */
+    .logo img {
+        content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-big.png");
+    }
+    
+    /* Dropdown logo replacement */
+    .dropdown-menu-sidebar-graphic > img:nth-child(1) {
+        content: url("https://raw.githubusercontent.com/sluhtie/Novacloud-Catppuccin-Theme/refs/heads/main/images/logo-dropdown.png");
+    }
+    
+    .img-fluid {
+        content: url(https://github.com/sluhtie/Novacloud-Catppuccin-Theme/blob/main/images/sitejet.png?raw=true);
+    }
+    
+    /* Dropdown link background color */
+    .dropdown-menu > .active > a {
+        background-color: #1e1e2e;
+    }
+    
+    /* Modal Background */
+    .modal {
+        background: var(--body-bg);
+    }
+    
+    /* Panel Color Adjustments */
+    .panel-sidebar.panel-sidebar-primary {
+        background: linear-gradient(45deg, #410a8f 0%, #7e0e5b 100%);
+    }
+    
+    .panel {
+        --panel-info-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
+    }
+    
+    .panel-info > .panel-heading {
+        background: transparent;
+        --panel-info-text: white;
+        --panel-info-border: white;
+    }
+    
+    .panel-summary-primary {
+        --primary-block-bg: linear-gradient(45deg, #0a488f 0%, #510e7e 100%);
+    }
+    
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group > a.list-group-item.active {
+        background: #181825;
+    }
+    
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group > a.list-group-item.active:hover {
+        background: #313244;
+    }
+    
+    /* Dashboard adjustments */
+    .panel-default > .panel-heading {
+        border-color: #313244;
+    }
+    
+    .list-group-item {
+        border-bottom: 0px;
+    }
+    
+    .list-group-item:hover {
+        background: #313244;
+    }
+    
+    .client-home-panels .panel-active-services .list-group .list-group-item:hover {
+        background: #313244;
+    }
+    
+    /* Various table color adjustments */
+    .table > tbody > tr > td {
+        border-top: 0px;
+    }
+    
+    .table-container .dataTables_length {
+        border-top: 0px;
+    }
+    
+    .table > tbody > tr[data-url]:hover > td {
+        background: #313244;
+    }
+    
+    #layers .lu-tile {
+        background: #11111b;
+        border: 0px;
+    }
+    
+    #layers .lu-tile:hover {
+        background: #313244;
+    }
+    
+    #layers .lu-widget {
+        background: #11111b;
+        border: 0px;
+        margin: 0px;
+    }
+    
+    #layers .lu-widget__header {
+        border-color: #313244;
+    }
+    
+    #layers .lu-widget__body {
+        border: 0px;
+    }
+    
+    #layers .lu-table {
+        margin-bottom: 0px;
+    }
+    
+    #layers .lu-table tbody td {
+        border-top: 1px solid #313244;
+    }
+    
+    /* Some Icons & Buttons */
+    .message-success .message-icon {
+        background: var(--state-success-text);
+    }
+    
+    .btn-primary-faded {
+        border: 0px;
+        background: #1e1e2e;
+    }
+    
+    .btn-primary-faded:hover {
+        background: #313244;
+    }
+    
+    .alert-info:not(.alert-primary) {
+        background-color: #4572b3;
+        border: 0px;
+    }
 }
